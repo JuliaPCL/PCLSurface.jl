@@ -1,5 +1,16 @@
+"""
+The **pcl_surface** library deals with reconstructing the original surfaces
+from 3D scans.
+
+http://docs.pointclouds.org/trunk/group__surface.html
+
+## Exports
+
+$(EXPORTS)
+"""
 module PCLSurface
 
+using DocStringExtensions
 using LibPCL
 using PCLCommon
 using Cxx
